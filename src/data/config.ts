@@ -11,10 +11,10 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
+    title: 'Marcin Woś - Software Developer',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+      'Highly motivated and experienced Full Stack Developer with a passion for creating innovative and high-quality software solutions. Possessing strong technical skills in front-end and back-end development, as well as a proven track record of delivering complex projects on time while maintaining high code quality standards. Committed to staying up-to-date with emerging technologies and continuously improving skills to drive business success.',
+    faviconPath: '/src/assets/my-photo.png',
   },
   pdf: {
     footer:
