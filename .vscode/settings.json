@@ -10,5 +10,7 @@
   "tailwindCSS.includeLanguages": { "javascript": "javascriptreact", "astro": "javascriptreact" },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" }
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }

@@ -332,7 +332,6 @@ export const lerna = createSkillFactory({
   url: 'https://lerna.js.org/',
 });
 
-//
 export const csharp = createSkillFactory({
   name: 'C#',
   icon: 'devicon:csharp' as IconName,
@@ -385,4 +384,52 @@ export const express = createSkillFactory({
   icon: 'logos:express',
   name: 'Express',
   url: 'https://expressjs.com/',
+});
+
+export const selenium = createSkillFactory({
+  icon: 'logos:selenium',
+  name: 'Selenium',
+  url: 'https://www.selenium.dev/',
+});
+
+export const vitest = createSkillFactory({
+  icon: 'logos:vitest',
+  name: 'Vitest',
+  url: 'https://vitest.dev/',
+});
+
+export const vite = createSkillFactory({
+  icon: 'logos:vitejs',
+  name: 'Vite',
+  url: 'https://vitejs.dev/',
+});
+
+export const webpack = createSkillFactory({
+  icon: 'logos:webpack',
+  name: 'Webpack',
+  url: 'https://webpack.js.org/',
+});
+
+export const jenkins = createSkillFactory({
+  icon: 'logos:jenkins',
+  name: 'Jenkins',
+  url: 'https://www.jenkins.io/',
+});
+
+export const gradle = createSkillFactory({
+  icon: 'logos:gradle',
+  name: 'Gradle',
+  url: 'https://gradle.org/',
+});
+
+export const bootstrap = createSkillFactory({
+  icon: 'logos:bootstrap',
+  name: 'Bootstrap',
+  url: 'https://getbootstrap.com/',
+});
+
+export const jquery = createSkillFactory({
+  icon: 'logos:jquery',
+  name: 'jquery',
+  url: 'https://jquery.com/',
 });

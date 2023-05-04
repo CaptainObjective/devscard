@@ -1,18 +1,31 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { linkedin, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
+  azuredevops,
+  bootstrap,
+  csharp,
+  dotnet,
+  express,
+  gradle,
+  javascript,
+  jenkins,
+  jest,
+  jira,
+  jquery,
+  mssql,
+  nestJs,
+  nodeJs,
+  playwright,
   react,
-  reactQuery,
-  tailwindCss,
+  redux,
+  sass,
+  selenium,
+  sitecore,
+  teamcity,
   typescript,
-  vue,
+  vite,
+  webpack,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,59 +37,94 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior Software Developer',
+      company: 'CDQ',
+      image: import('@/assets/logos/cdq.webp'),
+      dates: [new Date('2021-09'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+      - Development and maintenance of Cloud Apps - fullstack application serving as a hub for CDQ's DQaaS solutions.
+      - Worked closely with other teams to identify and resolve bugs.
+      - Implemented testing processes to ensure software quality.
+      - Proposed and led the migration of our backend from bare Express to NestJS.
+      - Contributed to the design process of new features.
+      - Mentored junior developers on best practices for code quality and development processes.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [
+          typescript(),
+          react(),
+          redux(),
+          sass(),
+          bootstrap(),
+          nodeJs(),
+          express(),
+          nestJs(),
+          jest(),
+          playwright(),
+          vite(),
+          jenkins(),
+          gradle(),
+          jira(),
+        ],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [linkedin({ url: 'https://www.linkedin.com/company/cdq-ag/' }), website({ url: 'https://www.cdq.com/' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Software Engineer',
+      company: 'Capgemini',
+      image: 'https://companieslogo.com/img/orig/CAP.PA-9b4110b0.png?t=1651902188',
+      dates: [new Date('2020-03'), new Date('2021-09')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+      - Contributed to the development and maintenance of a large-scale health insurance platform.
+      - Maintenance of existing code, fixing bugs, covering code with unit, integration and E2E tests
+      - Participated in code reviews and provided constructive feedback to improve code quality and maintainability
+      - Development of API testing tool build with Typescript and Nest.js
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [
+          csharp(),
+          dotnet(),
+          sitecore(),
+          mssql(),
+          sass(),
+          bootstrap(),
+          webpack(),
+          javascript(),
+          jquery(),
+          jest(),
+          selenium(),
+          azuredevops(),
+          teamcity(),
+          typescript(),
+          nestJs(),
+        ],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/capgemini/' }),
+        website({ url: 'https://www.capgemini.com/' }),
+      ],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Reporting specialist',
+      company: 'DXC',
+      image:
+        'https://dxc.com/content/dam/dxc/projects/dxc-com/us/images/about-us/newsroom/logos-for-media/vertical/DXC%20Logo_Purple+Black%20RGB.png',
+      dates: [new Date('2018-09'), new Date('2020-03')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+      - Designed and developed web application to enable easy viewing of internal reports for various stakeholders.
+      - Preparing reports related to SLA, BC etc. based on various data sources.
+      - Automating daily tasks with VBA and AHK
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [mssql(), javascript(), react(), redux(), webpack()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/dxctechnology/' }),
+        website({ url: 'https://dxc.com/us/en' }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;

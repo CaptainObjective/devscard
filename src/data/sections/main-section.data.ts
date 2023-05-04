@@ -29,7 +29,7 @@ const mainSectionData = {
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    downloadedFileName: 'CV.pdf',
   },
   links: [
     github({ url: 'https://github.com/CaptainObjective' }),
