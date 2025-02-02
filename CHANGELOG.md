@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2023-08-25
+
+### Breaking
+
+- Bump astro-compress version to prevent failing install
+
+## [0.2.1] - 2023-07-10
+
+### Dependencies
+
+- chore(deps): update dependencies ([details](https://github.com/KonradSzwarc/devscard/pull/226))
+
+## [0.2.0] - 2023-07-02
+
+### Breaking
+
+- Require Node.js 18.
+
+### Dependencies
+
+- chore(deps): update dependencies ([details](https://github.com/KonradSzwarc/devscard/pull/225))
+
+## [0.1.6] - 2023-05-08
+
+### Dependencies
+
+- chore(deps): update dependencies ([details](https://github.com/KonradSzwarc/devscard/pull/220))
+
 ## [0.1.5] - 2023-05-01
 
 ### Dependencies
