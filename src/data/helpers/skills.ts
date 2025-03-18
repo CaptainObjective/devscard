@@ -381,7 +381,6 @@ export const trpc = createSkillFactory({
 });
 
 export const express = createSkillFactory({
-  icon: 'logos:express',
   name: 'Express',
   url: 'https://expressjs.com/',
 });
@@ -432,4 +431,92 @@ export const jquery = createSkillFactory({
   icon: 'logos:jquery',
   name: 'jquery',
   url: 'https://jquery.com/',
+});
+
+export const kubernetes = createSkillFactory({
+  name: 'Kubernetes',
+  icon: 'logos:kubernetes',
+  iconColor: '#326CE5',
+  url: 'https://kubernetes.io/',
+});
+
+export const terraform = createSkillFactory({
+  name: 'Terraform',
+  icon: 'logos:terraform',
+  iconColor: '#7B42BC',
+  url: 'https://www.terraform.io/',
+});
+
+export const terraformCdk = createSkillFactory({
+  name: 'Terraform CDK',
+  icon: 'logos:terraform',
+  iconColor: '#7B42BC',
+  url: 'https://www.terraform.io/cdks',
+});
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'logos:aws',
+  iconColor: '#FF9900',
+  url: 'https://aws.amazon.com/',
+});
+
+export const mysql = createSkillFactory({
+  name: 'MySQL',
+  icon: 'logos:mysql',
+  iconColor: '#4479A1',
+  url: 'https://www.mysql.com/',
+});
+
+export const grpc = createSkillFactory({
+  name: 'gRPC',
+  icon: 'logos:grpc',
+  iconColor: '#6F4C4B',
+  url: 'https://grpc.io/',
+});
+
+export const redis = createSkillFactory({
+  name: 'Redis',
+  icon: 'logos:redis',
+  iconColor: '#DC382D',
+  url: 'https://redis.io/',
+});
+
+export const typeorm = createSkillFactory({
+  name: 'TypeORM',
+  icon: 'logos:typeorm',
+  iconColor: '#F04E23',
+  url: 'https://typeorm.io/',
+});
+
+export const antdesign = createSkillFactory({
+  name: 'Ant Design',
+  icon: 'logos:ant-design',
+  iconColor: '#0170FE',
+  url: 'https://ant.design/',
+});
+
+export const drizzle = createSkillFactory({
+  name: 'Ant Design',
+  icon: 'logos:drizzle',
+  url: 'https://orm.drizzle.team/',
+});
+
+export const bun = createSkillFactory({
+  name: 'Bun',
+  icon: 'logos:bun',
+  iconColor: '#000000',
+  url: 'https://bun.sh/',
+});
+
+export const elysia = createSkillFactory({
+  name: 'Elysia',
+  url: 'https://elysiajs.com/',
+});
+
+export const tanstack = createSkillFactory({
+  name: 'TanStack',
+  icon: 'logos:react-query',
+  iconColor: '#FF4154',
+  url: 'https://tanstack.com/',
 });

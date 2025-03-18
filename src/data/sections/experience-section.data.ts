@@ -2,29 +2,40 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { linkedin, website } from '../helpers/links';
 import {
+  antdesign,
+  aws,
   azuredevops,
   bootstrap,
   csharp,
   dotnet,
   express,
   gradle,
+  grpc,
   javascript,
   jenkins,
   jest,
   jira,
   jquery,
+  kubernetes,
   mssql,
+  mysql,
   nestJs,
   nodeJs,
   playwright,
   react,
+  redis,
   redux,
   sass,
   selenium,
   sitecore,
+  socketio,
   teamcity,
+  terraform,
+  terraformCdk,
+  typeorm,
   typescript,
   vite,
+  vitest,
   webpack,
 } from '../helpers/skills';
 
@@ -38,9 +49,51 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Senior Software Developer',
+      company: 'Sportradar',
+      image: import('@/assets/logos/sr-logo.jpeg'),
+      dates: [new Date('2023-10'), null],
+      description: `
+      - Development and maintenance of a full-stack application for managing automated data collection processes, enabling orchestration, monitoring, and configuration of internal data-gathering tools.
+      - Collaborated with Product Owner and Architect to plan the feature roadmap, design new functionalities, and ensure alignment with business and technical requirements.
+      - Conducted code reviews, provided mentorship to team members, and promoted best practices to enhance code quality, maintainability, and development efficiency.
+      - Contributed to the DevOps aspects of the project, supporting database performance, caching strategies, monitoring, and alerting to ensure system reliability and scalability.
+      - Influenced the testing process by focusing on validating real use cases rather than covering specific lines of code.
+      - Created documentation for our gRPC API generated from proto files, so consumers can easily discover and understand the available features.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [
+          typescript(),
+          jest(),
+          vite(),
+          vitest(),
+          playwright(),
+          react(),
+          antdesign(),
+          socketio(),
+          grpc(),
+          nodeJs(),
+          nestJs(),
+          typeorm(),
+          mysql(),
+          redis(),
+          kubernetes(),
+          aws(),
+          terraform(),
+          terraformCdk(),
+          jira(),
+        ],
+      },
+      links: [
+        linkedin({ url: 'https://www.linkedin.com/company/sportradar' }),
+        website({ url: 'https://sportradar.com/' }),
+      ],
+    },
+    {
+      role: 'Senior Software Developer',
       company: 'CDQ',
       image: import('@/assets/logos/cdq.webp'),
-      dates: [new Date('2021-09'), null],
+      dates: [new Date('2021-09'), new Date('2023-10')],
       description: `
       - Development and maintenance of Cloud Apps - fullstack application serving as a hub for CDQ's DQaaS solutions.
       - Worked closely with other teams to identify and resolve bugs.
