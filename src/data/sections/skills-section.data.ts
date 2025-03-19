@@ -149,7 +149,7 @@ const skillsSectionData = {
         gradle({ level: 2 }),
       ],
     },
-    { title: 'My favourites', skills: [bun(), elysia(), tanstack(), tailwindCss(), drizzle(), playwright()] },
+    { title: 'My favorites', skills: [bun(), elysia(), tanstack(), tailwindCss(), drizzle(), playwright()] },
     {
       title: 'I speak',
       skills: [

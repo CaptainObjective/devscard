@@ -19,9 +19,9 @@ const mainSectionData = {
   pdfDetails: [
     { label: 'Phone', value: '501 389 578' },
     { label: 'Email', value: 'marcin.wos.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/marcinwos95', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/CaptainObjective', url: 'https://github.com' },
-    { label: 'Website', value: 'https://marcinwos.netlify.app', url: '/', fullRow: true },
+    { label: 'LinkedIn', value: 'https://linkedin.com/in/marcinwos95', url: 'https://linkedin.com/in/marcinwos95' },
+    { label: 'GitHub', value: 'https://github.com/CaptainObjective', url: 'https://github.com/CaptainObjective' },
+    { label: 'Website', value: 'https://marcinwos.netlify.app', url: 'https://marcinwos.netlify.app', fullRow: true },
   ],
   description:
     'Highly motivated and experienced Full Stack Developer with a passion for creating innovative and high-quality software solutions. Possessing strong technical skills in front-end and back-end development, as well as a proven track record of delivering complex projects on time while maintaining high code quality standards. Committed to staying up-to-date with emerging technologies and continuously improving skills to drive business success.',
