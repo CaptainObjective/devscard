@@ -130,9 +130,9 @@ const experienceSectionData = {
       dates: [new Date('2020-03'), new Date('2021-09')],
       description: `
       - Contributed to the development and maintenance of a large-scale health insurance platform.
-      - Maintenance of existing code, fixing bugs, covering code with unit, integration and E2E tests
+      - Maintained existing code, fixed bugs, and increased test coverage with unit, integration, and E2E tests
       - Participated in code reviews and provided constructive feedback to improve code quality and maintainability
-      - Development of API testing tool build with Typescript and Nest.js
+      - Development of API testing tool built with Typescript and Nest.js
       `,
       tagsList: {
         title: 'Technologies',

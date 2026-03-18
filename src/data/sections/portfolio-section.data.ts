@@ -38,8 +38,8 @@ const portfolioSectionData = {
   projects: [
     {
       name: 'CodersCamp',
-      image: 'https://coderscrew.pl/wp-content/uploads/2019/09/logo-coderscamp.png',
-      dates: [new Date('2018-09'), null],
+
+      dates: [new Date('2018-09'), new Date('2022-06')],
       details: [
         { label: 'Team size', value: '10+' },
         { label: 'My role', value: ['Mentor'] },
@@ -125,11 +125,11 @@ const portfolioSectionData = {
       details: [],
       pdfDetails: [],
       description: `
-      31.03-01.04 2023 - 6. Bydgoski Hackathon - Winner
+      31.03-01.04.2023 - 6. Bydgoski Hackathon - Winner
       04.06-05.06.2022 - Livechat Hackathon - 3rd Place
-      23.04-25.04.2021 - 2MD Hackaton - Winner
+      23.04-25.04.2021 - 2MD Hackathon - Winner
       17.03-22.03.2020 - Hack the Crisis: Tech for Good Hackathon - Top 10
-      11-12.10.2019 - Divante Hackaton - Winner
+      11.10-12.10.2019 - Divante Hackathon - Winner
       24.05-25.05.2019 - Livechat Hackathon - 3rd Place
       14.09-15.09.2018 - RST Hackathon - Winner
       `,

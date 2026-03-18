@@ -19,7 +19,7 @@ const educationSectionData = {
       - Member of student organization "Bankier", responsible for
       maintaining website and a Facebook profile of the organization.
       - Conducting VBA training for other students during GrafIT event on
-      Wroclaw university of Economics`,
+      Wrocław University of Economics`,
       links: [website({ url: 'https://www.ue.wroc.pl/' })],
     },
   ],

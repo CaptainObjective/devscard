@@ -25,7 +25,7 @@ const mainSectionData = {
   ],
   description:
     'Highly motivated and experienced Full Stack Developer with a passion for creating innovative and high-quality software solutions. Possessing strong technical skills in front-end and back-end development, as well as a proven track record of delivering complex projects on time while maintaining high code quality standards. Committed to staying up-to-date with emerging technologies and continuously improving skills to drive business success.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+  tags: [],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',

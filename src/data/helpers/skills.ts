@@ -1,5 +1,5 @@
 import createSkillFactory from '@/data/_internals/create-skill-factory';
-import { IconName } from '@/types/shared';
+import type { IconName } from '@/types/shared';
 
 /*
 
@@ -179,8 +179,8 @@ export const svelte = createSkillFactory({
   url: 'https://svelte.dev/',
 });
 
-export const reactQuery = createSkillFactory({
-  name: 'React Query',
+export const tanstackQuery = createSkillFactory({
+  name: 'Tanstack Query',
   icon: 'logos:react-query-icon',
   url: 'https://tanstack.com/query',
 });
@@ -382,6 +382,7 @@ export const trpc = createSkillFactory({
 
 export const express = createSkillFactory({
   name: 'Express',
+  icon: 'skill-icons:expressjs-dark',
   url: 'https://expressjs.com/',
 });
 
@@ -497,7 +498,7 @@ export const antdesign = createSkillFactory({
 });
 
 export const drizzle = createSkillFactory({
-  name: 'Ant Design',
+  name: 'Drizzle',
   icon: 'logos:drizzle',
   url: 'https://orm.drizzle.team/',
 });
@@ -519,4 +520,18 @@ export const tanstack = createSkillFactory({
   icon: 'logos:react-query',
   iconColor: '#FF4154',
   url: 'https://tanstack.com/',
+});
+
+export const githubCopilot = createSkillFactory({
+  name: 'GitHub Copilot',
+  icon: 'simple-icons:githubcopilot',
+  iconColor: '#000000',
+  url: 'https://github.com/features/copilot',
+});
+
+export const claudeAi = createSkillFactory({
+  name: 'Claude',
+  icon: 'simple-icons:anthropic',
+  iconColor: '#D4701F',
+  url: 'https://claude.ai',
 });
